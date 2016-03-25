@@ -1,0 +1,47 @@
+@charset "UTF-8";
+@import "base/_mobile";
+@import "base/_mixin";
+
+body{
+	font-size:rem(15);
+	background-color:rgba(0,0,0,0.1);
+	font-family:"Hiragino Sans GB", "Helvetica Neue",Helvetica,STHeiTi,sans-serif;
+	margin-bottom:60px;
+}
+h1{
+	color:#CC3511;
+	text-align:center;
+	padding:10px 0;
+	border-bottom:2px solid #D6CACA;
+	box-shadow:2px 2px 21px #EED2D2;
+	font-weight:normal;
+	background-color:#B8B7B7;
+}
+h2{
+	text-align:center;
+	padding:8px 0;
+	font-size:rem(28);
+}
+table{
+	border-collapse: collapse;
+	text-align:center;
+	width:100%;
+}
+
+th,td{
+	border:1px solid black;
+	font-size:rem(18);
+	padding:5px 5px;
+}
+th:first-child{
+	width:25%;
+}
+th:nth-child(2){
+	background-color:yellow;
+}
+.zf-green{
+	color:green;
+}
+.zf-red{
+	color:red;
+}
